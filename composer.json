@@ -1,0 +1,21 @@
+{
+    "name": "plexypay/plexypay-sdk-php",
+    "description": "PlexyPay library for php",
+    "license": "MIT",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plexypay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nurbol Sarsenbayev",
+            "email": "nurbol.sarsenbayev@plexypay.com"
+        }
+    ]
+}
